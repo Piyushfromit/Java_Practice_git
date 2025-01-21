@@ -1,0 +1,134 @@
+package org.example.dsaString;
+
+public class MainMain {
+//    public static void main(String[] args) {
+//        System.out.println("Hello world!");
+//
+//        List<Integer> integerList = Arrays.asList(1,2,3,4,1,3,7,9);
+//
+//        integerList.stream()
+//                .filter(e -> e % 2 != 0)
+//                .distinct().limit(2).forEach(System.out::println);
+//////                .filter(e -> e / 2 == 1)
+////                .findAny().get();
+////                .findFirst().get();
+////        System.out.println(integer);
+//
+//    }
+
+   // public static void main(String[] args) {
+//        List<Double> itemPrices = new ArrayList<>();
+//        itemPrices.add(10.0);
+//        itemPrices.add(20.0);
+//        itemPrices.add(30.0);
+//
+//        // Define a function to apply a discount of 10%
+//        Function<Double, Double> applyDiscount = (price) -> price * 0.9;
+//
+//        // Apply the discount to each item in the list
+//        List<Double> discountedPrices = new ArrayList<>();
+//        for (Double price : itemPrices) {
+//            discountedPrices.add(applyDiscount.apply(price));
+//        }
+//
+//        // Calculate the total cost
+//        double totalCost = 0.0;
+//        for (Double price : discountedPrices) {
+//            totalCost += price;
+//        }
+//
+//        System.out.println("Total cost after discount: $" + totalCost);
+
+
+//        String s1="Sachin";
+//        String s2= new String("Sachin");
+//        String s3="Ratan";
+//        System.out.println(s1.compareTo(s2));//0
+//        System.out.println(s1.compareTo(s3));//1(because s1>s3)
+//        System.out.println(s3.compareTo(s1));//-1(because s3 < s1 )
+
+
+
+
+
+  //  }
+
+
+
+
+//        public static void main(String args[]){
+//            Animal parent = new Dog();
+//            parent.eat(); //eating bread...
+////calling child class specific method with parent class variable
+//           ((Dog) parent).bark(); //C T Error
+////downcasting parent class variable to the child class object.
+////downcasting works fine at compile time
+//            Dog d = (Dog) parent;
+//            d.bark();
+//        }
+
+    void doSomething(Animal a){
+        a.eat();
+        if(a instanceof Dog){
+            Dog d = (Dog)a;
+            d.bark();
+        }
+    }
+
+    public static void main(String args[]){
+
+
+        MainMain main = new MainMain();
+       // main.doSomething(new Animal());
+       main.doSomething(new Dog());
+Animal an = new Dog();
+//        eating...
+//        eating bread...
+//        barking...
+
+
+    }
+
+
+
+
+}
+
+
+
+
+//
+//class Animal{
+//    void eat(){
+//        System.out.println("eating...");
+//    }
+//}
+//class Dog extends Animal{
+//    @Override
+//    void eat(){
+//        System.out.println("eating bread...");
+//    }
+//    //specific method of child class
+//    void bark() {
+//        System.out.println("barking...");
+//    }
+//}
+
+
+
+class Animal{
+    void eat(){
+        System.out.println("eating...");
+    }
+}
+class Dog extends Animal{
+    @Override
+    void eat(){
+        System.out.println("eating bread...");
+    }
+    //specific method of child class
+    void bark(){
+        System.out.println("barking...");
+    }
+}
+
