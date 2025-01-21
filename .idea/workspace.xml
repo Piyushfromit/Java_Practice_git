@@ -18,31 +18,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qqv3Sm2wUArvMK4hHlo6LKPYKv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DemoClass.executor": "Run",
-    "Application.DemoClass2.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DemoClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoClass2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DemoClass2">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DemoClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoClass" />
+      <option name="MAIN_CLASS_NAME" value="org.example.theory.DemoClass" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,11 +51,11 @@
       </method>
     </configuration>
     <configuration name="DemoClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoClass2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.theory.DemoClass2" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,7 +68,7 @@
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,9 +78,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DemoClass2" />
         <item itemvalue="Application.DemoClass" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

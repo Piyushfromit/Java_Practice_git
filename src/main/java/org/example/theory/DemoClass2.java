@@ -1,4 +1,4 @@
-package org.example;
+package org.example.theory;
 
 public class DemoClass2 extends DemoAbstractClass {
 
