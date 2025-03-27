@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/MapSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/PredicateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/ShortedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonrepetaedCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringWithoutREpeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharcters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveWhiteSpaceinString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordinString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/optionalClass/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/optionalClass/OptionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reduce/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reduce/reduceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonrepetaedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +38,24 @@
   "keyToString": {
     "Application.DemoClass.executor": "Run",
     "Application.DemoClass2.executor": "Run",
+    "Application.FindFirstNonRepeatedCharacter.executor": "Run",
     "Application.FindFirstNonrepetaedCharacter.executor": "Run",
+    "Application.FrequencyOfString.executor": "Run",
+    "Application.LongestSubstringWithoutREpeatingCharacter.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Raj.executor": "Run",
+    "Application.RemoveAllSpecialCharcters.executor": "Run",
+    "Application.RemoveDuplicateFromString.executor": "Run",
+    "Application.RemoveWhiteSpaceinString.executor": "Run",
+    "Application.ReplaceCharacterWithOccurence.executor": "Run",
+    "Application.ReverseEachWordinString.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.ShortStringCharacter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example"
+    "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,9 +64,9 @@
       <recent name="D:\Java_Practice_git\src\main\java\org\example\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortStringCharacter">
-    <configuration name="RemoveWhiteSpaceinString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.RemoveWhiteSpaceinString" />
+  <component name="RunManager" selected="Application.FindFirstNonRepeatedCharacter">
+    <configuration name="FindFirstNonRepeatedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.FindFirstNonRepeatedCharacter" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceCharacterWithOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ReplaceCharacterWithOccurence" />
+    <configuration name="Raj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.rajAmazone.Raj" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.rajAmazone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstNonRepeatedCharacter" />
+        <item itemvalue="Application.Raj" />
         <item itemvalue="Application.ShortStringCharacter" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.ReverseEachWordinString" />
-        <item itemvalue="Application.ReplaceCharacterWithOccurence" />
-        <item itemvalue="Application.RemoveWhiteSpaceinString" />
       </list>
     </recent_temporary>
   </component>

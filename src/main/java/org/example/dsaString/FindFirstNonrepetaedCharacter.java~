@@ -3,11 +3,11 @@ package org.example.dsaString;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FindFirstNonrepetaedCharacter {
+public class FindFirstNonRepetaedCharacter {
 
     public static void main(String[] args) {
 
-        String str="heeljjklo";
+        String str="hheeljjklo";
 
         Map<Character,Integer> map=new LinkedHashMap<>();
         //Map<Character,Integer> map=new HashMap<>();

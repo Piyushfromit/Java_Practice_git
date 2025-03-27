@@ -3,7 +3,7 @@ package org.example.dsaString;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FindFirstNonrepetaedCharacter {
+public class FindFirstNonRepeataedCharacter {
 
     public static void main(String[] args) {
 
