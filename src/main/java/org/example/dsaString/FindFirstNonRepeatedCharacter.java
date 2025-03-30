@@ -5,29 +5,39 @@ import java.util.Map;
 
 public class FindFirstNonRepeatedCharacter {
 
-    public static void firstNonRepeatedCharacter ( String str){
 
-        Map<Character, Integer> map = new LinkedHashMap<>();
+    public static void getfirstnonrepeatedChar ( String str){
 
-        for (int i=0; i< str.length() ; i++){
+        Map<Character, Integer > map = new LinkedHashMap<>();
+
+        for ( int i=0; i < str.length(); i++){
             if(map.containsKey(str.charAt(i))){
-                map.put(str.charAt(i), map.get(str.charAt(i)) + 1);
-            }else{
+                map.put(str.charAt(i), map.get(str.charAt(i))+1);
+            }else {
                 map.put(str.charAt(i), 1);
             }
         }
 
-        for(Character c: map.keySet()){
-            if(map.get(c)==1){
-                System.out.println(c);
+
+        for (Map.Entry<Character, Integer> elem : map.entrySet()){
+            if (elem.getValue() == 1){
+                System.out.println(elem.getKey());
+                break;
+            }
+        }
+
+        for (Character s: map.keySet()){
+            if(map.get(s) == 1){
+                System.out.println(s);
                 break;
             }
         }
     }
 
+
     public static void main(String[] args) {
         String str = "kgjafqaytgfedhqgsfhagkz";
-        firstNonRepeatedCharacter(str);
+        getfirstnonrepeatedChar(str);
     }
 
 
