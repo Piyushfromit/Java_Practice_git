@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CharacterInAscendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SeperateSpecialCharAndNumFromStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringWithoutREpeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharcters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,9 @@
     "Application.Main.executor": "Run",
     "Application.NewClass.executor": "Run",
     "Application.PrintStar.executor": "Run",
+    "Application.PrintStarPattern.executor": "Run",
     "Application.Raj.executor": "Run",
+    "Application.RemoveAllSpecialCharacters.executor": "Run",
     "Application.RemoveAllSpecialCharcters.executor": "Run",
     "Application.RemoveDuplicateFromString.executor": "Run",
     "Application.RemoveWhiteSpaceinString.executor": "Run",
@@ -77,33 +74,7 @@
       <recent name="D:\Java_Practice_git\src\main\java\org\example\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacter">
-    <configuration name="CharacterInAscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.CharacterInAscendingOrder" />
-      <module name="javaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.CheckPrime" />
-      <module name="javaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveDuplicateFromString">
     <configuration name="FrequencyOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dsaString.FrequencyOfString" />
       <module name="javaPractice2" />
@@ -130,8 +101,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSentance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ReverseSentance" />
+    <configuration name="PrintStarPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.PrintStarPattern" />
+      <module name="javaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveAllSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.RemoveAllSpecialCharacters" />
+      <module name="javaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.RemoveDuplicateFromString" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateFromString" />
+        <item itemvalue="Application.RemoveAllSpecialCharacters" />
+        <item itemvalue="Application.PrintStarPattern" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
         <item itemvalue="Application.FrequencyOfString" />
-        <item itemvalue="Application.CheckPrime" />
-        <item itemvalue="Application.CharacterInAscendingOrder" />
-        <item itemvalue="Application.ReverseSentance" />
       </list>
     </recent_temporary>
   </component>

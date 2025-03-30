@@ -6,19 +6,22 @@ import java.util.Set;
 public class RemoveDuplicateFromString {
 
     public static void main(String[] args) {
-    	
 
-        String str="abhishek";
+        String str = "abhishek";
+        approach1(str);
+        approach2(str);
 
-        //Approch 1
+    }
 
-        StringBuilder sb=new StringBuilder();
+    public static void approach1(String str) {
 
-        str.chars().distinct().forEach(s->sb.append((char)s));
+        StringBuilder sb = new StringBuilder();
+
+        str.chars().distinct().forEach(s -> sb.append((char) s));
         System.out.println(sb);
+    }
 
-        //Approch 2
-
+    public static void approach2(String str) {
         Set<Character> set=new LinkedHashSet<>();
 
         for(int i=0; i<str.length(); i++){
@@ -30,8 +33,6 @@ public class RemoveDuplicateFromString {
             ans.append(c);
         }
         System.out.println(ans);
-
-
 
     }
 }
