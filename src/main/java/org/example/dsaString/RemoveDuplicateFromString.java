@@ -16,9 +16,9 @@ public class RemoveDuplicateFromString {
     public static void approach1(String str) {
 
         StringBuilder sb = new StringBuilder();
-
         str.chars().distinct().forEach(s -> sb.append((char) s));
         System.out.println(sb);
+
     }
 
     public static void approach2(String str) {
@@ -35,4 +35,5 @@ public class RemoveDuplicateFromString {
         System.out.println(ans);
 
     }
+
 }

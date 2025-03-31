@@ -3,23 +3,24 @@ package org.example.dsaString;
 public class ReverseString {
 
     public static void main(String[] args) {
+        String str = "gaurav";
+        reverse(str);
+        reverse2(str);
+    }
 
-        String str="gaurav";
-
-        //Approch 1
-        String rev="";
-
-        for(int i=str.length()-1; i>=0; i--){
-            rev+=str.charAt(i);
+    public static void reverse(String str) {
+        String rev = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            rev += str.charAt(i);
         }
         System.out.println(rev);
+    }
 
-        //Approch 2
-
+    public static void reverse2(String str) {
         StringBuilder srev= new StringBuilder(str);
         srev.reverse();
         System.out.println(srev);
-
-
     }
+
+
 }

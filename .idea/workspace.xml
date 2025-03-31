@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharcters.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveWhiteSpaceFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurrenceCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordOfSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfCharacterInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringWithoutRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringSizeWithoutRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/PrintStarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/StarPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveAllSpecialCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveSpecialCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveWhiteSpaceinString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordinString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SeperateSpecialCharAndNumFromStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SeparateSpecialCharAndNumFromStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +69,19 @@
     "Application.RemoveDuplicateFromString.executor": "Run",
     "Application.RemoveWhiteSpaceinString.executor": "Run",
     "Application.ReplaceCharacterWithOccurence.executor": "Run",
+    "Application.ReplaceCharacterWithOccurrence.executor": "Run",
+    "Application.ReverseEachWordOfString.executor": "Run",
     "Application.ReverseEachWordinString.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
     "Application.ReverseSentance.executor": "Run",
+    "Application.ReverseSentence.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.SeparateSpecialCharAndNumFromStr.executor": "Run",
     "Application.SeperateSpecialCharAndNumFromStr.executor": "Run",
     "Application.ShortStringCharacter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -74,13 +93,13 @@
       <recent name="D:\Java_Practice_git\src\main\java\org\example\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicateFromString">
-    <configuration name="FrequencyOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.FrequencyOfString" />
+  <component name="RunManager" selected="Application.SeparateSpecialCharAndNumFromStr">
+    <configuration name="ReverseEachWordOfSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ReverseEachWordOfSentence" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.LongestSubstringWithoutRepeatingCharacter" />
+    <configuration name="ReverseSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ReverseSentence" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStarPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.PrintStarPattern" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ReverseString" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.RemoveAllSpecialCharacters" />
+    <configuration name="SeparateSpecialCharAndNumFromStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.RemoveDuplicateFromString" />
+    <configuration name="ShortStringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.ShortStringCharacter" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dsaString.*" />
+          <option name="PATTERN" value="org.example.dsaString.SeparateSpecialCharAndNumFromStr" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicateFromString" />
-        <item itemvalue="Application.RemoveAllSpecialCharacters" />
-        <item itemvalue="Application.PrintStarPattern" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
-        <item itemvalue="Application.FrequencyOfString" />
+        <item itemvalue="Application.SeparateSpecialCharAndNumFromStr" />
+        <item itemvalue="Application.ReverseSentence" />
+        <item itemvalue="Application.ReverseEachWordOfSentence" />
+        <item itemvalue="Application.ShortStringCharacter" />
+        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>

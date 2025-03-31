@@ -4,7 +4,10 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class FindFirstNonRepeatedCharacter {
-
+    public static void main(String[] args) {
+        String str = "kgjafqaytgfedhqgsfhagkz";
+        getfirstnonrepeatedChar(str);
+    }
 
     public static void getfirstnonrepeatedChar ( String str){
 
@@ -35,10 +38,7 @@ public class FindFirstNonRepeatedCharacter {
     }
 
 
-    public static void main(String[] args) {
-        String str = "kgjafqaytgfedhqgsfhagkz";
-        getfirstnonrepeatedChar(str);
-    }
+
 
 
 
