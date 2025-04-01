@@ -57,6 +57,24 @@ public class FindFirstNonRepeatedCharacter {
     public static void getFirstUniqueChar3(String str) {
         int[] frequency = new int[256]; // Array to store character counts
 
+        frequency[104] = 14;
+        System.out.println("freq 1: "+ frequency[104]);
+        int i1 = frequency['g'];
+        System.out.println("freq 2: "+i1);
+
+        char chc = 'A';
+        int ascii =chc;
+        System.out.println("acsci data: "+ascii);
+
+
+
+
+
+
+
+
+
+
         // Count occurrences of each character
         for (int i = 0; i < str.length(); i++) {
             char currentChar = str.charAt(i); // Get the character at index i
