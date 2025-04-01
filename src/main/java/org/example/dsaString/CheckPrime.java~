@@ -7,7 +7,6 @@ public class CheckPrime {
     public static void main(String[] args) {
         int num = 14;
         checkPrime(num);
-        checkPrime2(num);
     }
 
     public static void checkPrime(int num){

@@ -3,14 +3,13 @@ package org.example.dsaString;
 
 public class CharacterInAscendingOrder {
 
-    public static void main(String[] args) {
+    public static void main (String [] args) {
         String str = "kjhasddaswdkjh";
         charInAscOrder(str);
         charInAscOrder2(str);
     }
-
     // Bubble Short
-    public static void charInAscOrder(String str) {
+    public static void charInAscOrder( String str){
 
         char[] chars = new char[str.length()];
         // Copy string to char array
@@ -37,12 +36,12 @@ public class CharacterInAscendingOrder {
     }
 
     // Optimised Bubble Short
-    public static void charInAscOrder2(String str) {
+    public static void charInAscOrder2( String str){
 
         char[] chars = new char[str.length()];
 
-        for (int i = 0; i < str.length(); i++) {
-            chars[i] = str.charAt(i);
+        for (int i =0; i<str.length() ; i++){
+            chars[i]= str.charAt(i);
         }
 
         // Optimized Bubble Sort with early exit
@@ -62,7 +61,7 @@ public class CharacterInAscendingOrder {
             }
         }
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i =0; i < str.length() ; i++){
             System.out.print(chars[i]);
         }
 
@@ -105,22 +104,10 @@ public class CharacterInAscendingOrder {
         arr[j] = temp;
     }
 
-//public static void main(String[] args) {
-//    // Example string
-//    String str = "kjhasddaswdkjh";
-//
-//    // Convert string to character array
-//    char[] arr = str.toCharArray();
-//
-//    System.out.println("Original String: " + str);
-//
-//    // Apply QuickSort
-//    quickSort(arr, 0, arr.length - 1);
-//
-//    // Convert sorted char array back to string
-//    String sortedStr = new String(arr);
-//
-//    System.out.println("Sorted String: " + sortedStr);
-//}
+
+
+
+
+
 
 }

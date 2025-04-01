@@ -1,13 +1,0 @@
-
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µá½¬üÿÿÿÿ8‡úóÔŞ2J$409da8bd-8fdd-47df-8693-7cf8ada969b7
-x
-java:S1854"5Remove this useless assignment to local variable "c".(ıñãÁ8‹úóÔŞ2J$44dddf23-63a4-41b3-828d-7dd1b9039b36
-
-java:S1854
-"7Remove this useless assignment to local variable "str".(§µğ”ıÿÿÿÿ8‹úóÔŞ2J$d9e6ef4a-bb46-4254-965d-2c2e9e6376fc
-p
-java:S1481
-"(Remove this unused "str" local variable.(§µğ”ıÿÿÿÿ8ŒúóÔŞ2J$8e4d5db5-c7dc-4f5a-90f6-fedf79f82d1a
-i
-java:S1481"&Remove this unused "c" local variable.(ıñãÁ8ŒúóÔŞ2J$ae1974f3-80ac-461c-8653-90791dde946f
-l	java:S106!"+Replace this use of System.out by a logger.(ü„ê!8úóÔŞ2J$cad9de6f-8f90-4424-ab8d-f6c13bb9fe12

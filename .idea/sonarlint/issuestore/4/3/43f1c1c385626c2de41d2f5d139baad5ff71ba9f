@@ -1,6 +1,8 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µá½¬üÿÿÿÿJ$416c2058-fa8b-40ea-999b-86e16d54ad3c
-f	java:S106"+Replace this use of System.out by a logger.(§Ì¸J$77a5db31-fcaa-441d-9d27-210d54a5200d
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µá½¬üÿÿÿÿJ$90e385b3-a17b-4bb0-b708-cbfc46ce749f
+f	java:S106"+Replace this use of System.out by a logger.(ºùÆÉJ$ce4c4f3b-8176-4a09-b092-d120c7ad845a
+f	java:S106+"+Replace this use of System.out by a logger.(§Ì¸J$7a50210c-6d00-4bea-aa50-c9e12597fcbb
 u
-java:S2864 "4Iterate over the "entrySet" instead of the "keySet".(ÕñÜÖúÿÿÿÿJ$cd6e6b68-75ae-4581-a286-9ecb1f7dbf1f
-k	java:S106""+Replace this use of System.out by a logger.(Å­ËİúÿÿÿÿJ$0ae4f6a7-2746-4b95-a345-82e9325f4138
+java:S2864/"4Iterate over the "entrySet" instead of the "keySet".(ÕñÜÖúÿÿÿÿJ$880e011e-14fe-4643-8c54-c35f59bef89d
+r	java:S1061"+Replace this use of System.out by a logger.(Å­Ëİúÿÿÿÿ8ú¡´‰ß2J$e046832e-fc6d-4f43-a8b0-db7ebdec96be
+l	java:S106E"+Replace this use of System.out by a logger.(ıéî8‚µŠß2J$67fe20b5-f1dc-413d-af6f-2037b03b03d2
