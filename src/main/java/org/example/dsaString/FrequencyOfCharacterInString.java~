@@ -13,10 +13,7 @@ public class FrequencyOfCharacterInString {
         countFrequency3(str);
     }
 
-
-//    Brute Force Approach (Nested Loops)
-//    Time Complexity: O(N²)
-//    Space Complexity: O(1) (No extra space except variables)
+    // Bruit Force
     public static void countFrequency(String str) {
         boolean[] visited = new boolean[str.length()];
 
