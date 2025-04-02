@@ -8,7 +8,7 @@ public class FindFirstNonRepeatedCharacter {
         String str = "kgjafqaytgfedhqgsfhagkz";
         getFirstNonRepeatedChar(str);
         getFirstNonRepeatedChar2(str);
-        getFirstUniqueChar3(str);
+        getFirstNonRepeatedChar3(str);
     }
 
     // Bruit Force
@@ -53,32 +53,13 @@ public class FindFirstNonRepeatedCharacter {
     }
 
 
-
-    public static void getFirstUniqueChar3(String str) {
+    public static void getFirstNonRepeatedChar3(String str) {
         int[] frequency = new int[256]; // Array to store character counts
-
-        frequency[104] = 14;
-        System.out.println("freq 1: "+ frequency[104]);
-        int i1 = frequency['g'];
-        System.out.println("freq 2: "+i1);
-
-        char chc = 'A';
-        int ascii =chc;
-        System.out.println("acsci data: "+ascii);
-
-
-
-
-
-
-
-
-
 
         // Count occurrences of each character
         for (int i = 0; i < str.length(); i++) {
             char currentChar = str.charAt(i); // Get the character at index i
-            frequency[currentChar]++; // Increase its count in the array
+            frequency[currentChar] = frequency[currentChar] + 1;
         }
 
         // Find the first character that appears only once
@@ -90,8 +71,17 @@ public class FindFirstNonRepeatedCharacter {
         }
     }
 
-
-
+    // Note: ASCII value in java
+    // In Java, every character (char) has a corresponding ASCII (or Unicode) value, which is essentially its numerical representation.
+    // Java uses Unicode, but the first 128 characters of Unicode are the same as ASCII (0-127).
+    // Example:
+    public class ASCIIExample {
+        public static void main(String[] args) {
+            char ch = 'A';  // Character
+            int asciiValue =  ch;  // Convert to ASCII
+            System.out.println("ASCII value of '" + ch + "' is: " + asciiValue);
+        }
+    }
 
 
 
