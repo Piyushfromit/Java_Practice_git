@@ -11,6 +11,7 @@ public class FrequencyOfCharacterInString {
         countFrequency(str);
         countFrequency2(str);
         countFrequency3(str);
+        countFrequency4(str);
     }
 
 
@@ -85,6 +86,7 @@ public class FrequencyOfCharacterInString {
                 .collect(Collectors.groupingBy(c -> c, Collectors.counting()));
 
         frequencyMap.forEach((key, value) -> System.out.println(key + " : " + value));
+
     }
 
 

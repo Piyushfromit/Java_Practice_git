@@ -5,7 +5,7 @@ public class RemoveSpecialCharacters {
 
     public static void main(String[] args) {
 
-        String str="!abcd%sd@!";
+        String str="!ab5cd%sd@!";
         method1(str);
         method2(str);
 
