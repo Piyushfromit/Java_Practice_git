@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurrenceCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurrenceCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordOfSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordOfSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SeparateSpecialCharAndNumFromStr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/StarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/StarPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CharacterInAscendingOrder.executor": "Run",
+    "Application.CheckPalindrome.executor": "Run",
     "Application.CheckPrime.executor": "Run",
     "Application.DemoClass.executor": "Run",
     "Application.DemoClass2.executor": "Run",
@@ -83,9 +77,9 @@
       <recent name="D:\Java_Practice_git\src\main\java\org\example\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeparateSpecialCharAndNumFromStr">
-    <configuration name="LongestSubstringSizeWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.LongestSubstringSizeWithoutRepeatingCharacter" />
+  <component name="RunManager" selected="Application.CheckPalindrome">
+    <configuration name="CheckPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsaString.CheckPalindrome" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPalindrome" />
         <item itemvalue="Application.SeparateSpecialCharAndNumFromStr" />
         <item itemvalue="Application.ReverseEachWordOfSentence" />
         <item itemvalue="Application.RemoveDuplicateFromString" />
         <item itemvalue="Application.RemoveSpecialCharacters" />
-        <item itemvalue="Application.LongestSubstringSizeWithoutRepeatingCharacter" />
       </list>
     </recent_temporary>
   </component>
