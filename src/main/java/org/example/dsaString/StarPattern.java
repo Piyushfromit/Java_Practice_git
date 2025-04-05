@@ -170,13 +170,13 @@ public class StarPattern {
     }
 
 
-//                  *
-//                 * *
-//                *   *
-//               *     *
-//                *   *
-//                 * *
-//                  *
+//              *
+//             * *
+//            *   *
+//           *     *
+//            *   *
+//             * *
+//              *
 
     public static void hollowDiamond(int n){
         // Upper half
