@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindromeSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SlidingWindowMaxSubOfSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CharacterInAscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CharacterInAscendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

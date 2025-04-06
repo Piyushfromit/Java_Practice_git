@@ -8,6 +8,7 @@ public class CharacterInAscendingOrder {
         charInAscOrder1(str);
         charInAscOrder2(str);
         charInAscOrder3(str);
+        charInAscOrder4(str);
     }
 
 
@@ -97,8 +98,37 @@ public class CharacterInAscendingOrder {
         for (int i = 0; i < str.length(); i++) {
             System.out.print(chars[i]);
         }
-
+        System.out.println();
     }
+
+
+    // Insertion Short
+    public static void charInAscOrder4(String str) {
+
+        char[] chars = new char[str.length()];
+        // Copy string to char array
+        for (int i = 0; i < str.length(); i++) {
+            chars[i] = str.charAt(i);
+        }
+
+        // insertion sort the char array
+        for (int i = 0; i <= chars.length - 1; i++) {
+            int j = i;
+            while ( j > 0 && chars[j - 1] > chars[j] ) {
+                char temp = chars[j-1];
+                chars[j-1] = chars[j];
+                chars[j] = temp;
+                j--;
+            }
+        }
+
+        // Print sorted chars
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(chars[i]);
+        }
+        System.out.println();
+    }
+
 
 //    public static void main(String[] args) {
 //        // Example string
