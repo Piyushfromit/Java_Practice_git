@@ -9,6 +9,7 @@ public class CheckPalindrome {
 
         String str = "abcba";
         isPalindrome1(str);
+        System.out.println(isPalindrome3(str));
 
     }
 
@@ -48,24 +49,24 @@ public class CheckPalindrome {
         return s.equals(reversed);
     }
 
-
+// best approach
 //    Two-Pointer Approach (Optimal)
 //    Idea: Use two pointers — one at the start, one at the end — and compare characters moving inward.
 //    Time Complexity:
 //    O(n)
 //    Space Complexity:
 //    O(1) — no extra space used.
-    public boolean isPalindrome3(String s) {
-        int left = 0, right = s.length() - 1;
-        while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
+   public static boolean isPalindrome3(String str){
+        int l=0; int r =str.length()-1;
+        while (l< r){
+            if(str.charAt(l) != str.charAt(r)){
                 return false;
             }
-            left++;
-            right--;
+            l++;r--;
         }
-        return true;
-    }
+        return  true;
+
+   }
 
 //    Recursive Approach
 //    Idea: Check first and last characters, then recurse on substring.
