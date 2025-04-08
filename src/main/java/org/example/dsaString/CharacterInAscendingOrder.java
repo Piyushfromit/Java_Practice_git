@@ -1,6 +1,8 @@
 package org.example.dsaString;
 
 
+import java.sql.Time;
+
 public class CharacterInAscendingOrder {
 
     public static void main(String[] args) {
@@ -9,6 +11,9 @@ public class CharacterInAscendingOrder {
         charInAscOrder2(str);
         charInAscOrder3(str);
         charInAscOrder4(str);
+
+        charInAscOrderUsingMergeSort(str);
+        System.out.println(1/2);
     }
 
 
@@ -112,7 +117,7 @@ public class CharacterInAscendingOrder {
         }
 
         // insertion sort the char array
-        for (int i = 0; i <= chars.length - 1; i++) {
+        for (int i = 0; i < chars.length ; i++) {
             int j = i;
             while ( j > 0 && chars[j - 1] > chars[j] ) {
                 char temp = chars[j-1];
@@ -129,6 +134,7 @@ public class CharacterInAscendingOrder {
         System.out.println();
     }
 
+    //  Using Quick Sort algorithm
 
 //    public static void main(String[] args) {
 //        // Example string
@@ -181,6 +187,75 @@ public class CharacterInAscendingOrder {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+
+//    Using Merge Sort algorithm
+//    Time Complexity (TC):
+//    Merge Sort divides the array into halves recursively and then merges them.
+//    Divide step: Each division cuts the array in half → log(n) levels.
+//    Merge step: Each level performs a merge of all elements → O(n) work per level.
+//    Space Complexity (SC):
+//    Merge Sort uses extra space for merging the two halves.
+//    For each recursive call, it creates temporary arrays: left[] and right[].
+//    In total, across all recursion levels, O(n) additional space is used for merging.
+
+        public static void charInAscOrderUsingMergeSort(String str) {
+            char[] chars = str.toCharArray();
+            mergeSort(chars, 0, chars.length - 1);
+
+            // Print sorted characters
+            for (char c : chars) {
+                System.out.print(c);
+            }
+            System.out.println();
+        }
+
+        // Merge Sort
+        public static void mergeSort(char[] arr, int left, int right) {
+            if (left < right) {
+                int mid = left + (right - left) / 2;
+
+                mergeSort(arr, left, mid);
+                mergeSort(arr, mid + 1, right);
+
+                merge(arr, left, mid, right);
+            }
+        }
+
+        public static void merge(char[] arr, int left, int mid, int right) {
+            int len1 = mid - left + 1;
+            int len2 = right - mid;
+
+            char[] leftArray = new char[len1];
+            char[] rightArray = new char[len2];
+
+            for (int i = 0; i < len1; ++i) {
+                leftArray[i] = arr[left + i];
+            }
+            for (int j = 0; j < len2; ++j) {
+                rightArray[j] = arr[mid + 1 + j];
+            }
+            int i = 0, j = 0;
+            int k = left;
+
+            while (i < len1 && j < len2) {
+                if (leftArray[i] <= rightArray[j]) {
+                    arr[k++] = leftArray[i++];
+                } else {
+                    arr[k++] = rightArray[j++];
+                }
+            }
+
+            while (i < len1) {
+                arr[k++] = leftArray[i++];
+            }
+
+            while (j < len2) {
+                arr[k++] = rightArray[j++];
+            }
+        }
+
+
 
 
 }
