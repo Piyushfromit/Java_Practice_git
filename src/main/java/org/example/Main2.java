@@ -14,9 +14,50 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main2 {
-	
-	
-	
+
+	public static void main(String[] args) {
+
+		String name = "Piy8ush";
+        boolean result = name instanceof  String;
+		int Integer =6;
+//		System.out.println(Integer);
+//		System.out.println(result);
+
+
+		final String str = "Piyush";
+		str.concat(" user"); // will not giv error, we can change valu of object
+		// str = str.concat(" user"); // will give error, we can not resign final variable
+
+
+		final StringBuilder  str2 = new StringBuilder();
+		str2.append("user"); // will not giv error
+		// str2 = str2.append(" user"); // will give error, we can not resign final variable
+
+		StringBuffer str3 = new StringBuffer("piyush");
+        str3.append("Piyush");
+//		System.out.println(str3.capacity());
+//		System.out.println(str3.length());
+
+
+		String s1="Sachin";
+		String s2= new String("Sachin");
+		String s3="Ratan";
+		System.out.println(s1.compareTo(s2));//0, “==” will give false b/c both are diff obj
+		System.out.println(s1.compareTo(s3));//1(because s1>s3)
+		System.out.println(s3.compareTo(s1));//-1(because s3 < s1 )
+
+		int a = 'A';
+		System.out.println(a);
+		int b = 'a';
+		System.out.println(b);
+		System.out.println(b-a);
+
+		String c = "Hi";
+		String d = "Hey";
+		System.out.println(c.compareTo(d));
+
+	}
+
 	/*
 	 * public static void main(String[] args) { String text =
 	 * "The quick brown fox jumps over the lazy dog"; String patternString = "fox";
