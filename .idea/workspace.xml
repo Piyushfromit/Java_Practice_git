@@ -5,7 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collection/CollectionPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Collection/CollectionPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/DaemonBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/LifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Collection/CollectionPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/MapSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/MapSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/PredicateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/PredicateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/ShortedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/ShortedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunctionalInt/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/FunctionalInt/SupplierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InterThreadCommunication/MovieBookApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/InterThreadCommunication/MovieBookApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InterThreadCommunication/TotalEarnings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/InterThreadCommunication/TotalEarnings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/MainMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StaticSynchronization/BookTheaterSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StaticSynchronization/BookTheaterSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StaticSynchronization/MovieBookApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StaticSynchronization/MovieBookApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StaticSynchronization/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StaticSynchronization/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/BookTheaterSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/BookTheaterSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/DaemonThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/SynchronizationByMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/SynchronizationByMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/ThreadMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/ThreadMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/ThreadUsingRunnableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/ThreadUsingRunnableInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Thread/ThreadUsingThreadClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Thread/ThreadUsingThreadClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CharacterInAscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/CharacterInAscendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/CheckPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPalindromeSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/CheckPalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/CheckPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/CheckPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FindFirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/FindFirstNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/FrequencyOfCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/FrequencyOfCharacterInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/LongestSubstringSizeWithoutRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/LongestSubstringSizeWithoutRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/RemoveDuplicateFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveDuplicateFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/RemoveDuplicateFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveSpecialCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/RemoveSpecialCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/RemoveWhiteSpaceFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/RemoveWhiteSpaceFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReplaceCharacterWithOccurrenceCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ReplaceCharacterWithOccurrenceCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseEachWordOfSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ReverseEachWordOfSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ReverseSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/ShortStringCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/ShortStringCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/SlidingWindowMaxSubOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/SlidingWindowMaxSubOfSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsaString/StarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/dsaString/StarPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/optionalClass/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/optionalClass/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/optionalClass/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/optionalClass/OptionalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/parallelseream/ParallelStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/parallelseream/ParallelStreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/parallelseream/ParallelStreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/parallelseream/ParallelStreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/reduce/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/reduce/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/reduce/reduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/reduce/reduceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/theory/DemoAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/theory/DemoAbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/theory/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/theory/DemoClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/theory/DemoClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/theory/DemoClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/theory/DemoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/theory/DemoInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,69 +86,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CharacterInAscendingOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckPrime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DaemonThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoClass2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindFirstNonrepetaedCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOfCharacterInString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOfString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstringSizeWithoutRepeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstringWithoutREpeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubstringWithoutRepeatingCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieBookApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintStarPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Raj.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveAllSpecialCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveAllSpecialCharcters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateFromString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveSpecialCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveWhiteSpaceinString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceCharacterWithOccurence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEachWordOfSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseEachWordinString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseSentance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeparateSpecialCharAndNumFromStr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeperateSpecialCharAndNumFromStr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortStringCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SlidingWindowMaxSubOfSubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizationByMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadUsingRunnableInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadUsingThreadClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.InterThreadCommunication.MovieBookApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java_Practice_git/src/main/java/org/example&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CharacterInAscendingOrder.executor": "Run",
+    "Application.CheckPalindrome.executor": "Run",
+    "Application.CheckPrime.executor": "Run",
+    "Application.DaemonBasics_NoLambda.executor": "Run",
+    "Application.DaemonThread.executor": "Run",
+    "Application.DemoClass.executor": "Run",
+    "Application.DemoClass2.executor": "Run",
+    "Application.FindFirstNonRepeatedCharacter.executor": "Run",
+    "Application.FindFirstNonrepetaedCharacter.executor": "Run",
+    "Application.FrequencyOfCharacterInString.executor": "Run",
+    "Application.FrequencyOfString.executor": "Run",
+    "Application.Interview.executor": "Run",
+    "Application.LifeCycle.executor": "Run",
+    "Application.LongestSubstringSizeWithoutRepeatingCharacter.executor": "Run",
+    "Application.LongestSubstringWithoutREpeatingCharacter.executor": "Run",
+    "Application.LongestSubstringWithoutRepeatingCharacter.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.MovieBookApp.executor": "Run",
+    "Application.NewClass.executor": "Run",
+    "Application.PrintStar.executor": "Run",
+    "Application.PrintStarPattern.executor": "Run",
+    "Application.Raj.executor": "Run",
+    "Application.RemoveAllSpecialCharacters.executor": "Run",
+    "Application.RemoveAllSpecialCharcters.executor": "Run",
+    "Application.RemoveDuplicateFromString.executor": "Run",
+    "Application.RemoveSpecialCharacters.executor": "Run",
+    "Application.RemoveWhiteSpaceinString.executor": "Run",
+    "Application.ReplaceCharacterWithOccurence.executor": "Run",
+    "Application.ReverseEachWordOfSentence.executor": "Run",
+    "Application.ReverseEachWordinString.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.ReverseSentance.executor": "Run",
+    "Application.ReverseSentence.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.SeparateSpecialCharAndNumFromStr.executor": "Run",
+    "Application.SeperateSpecialCharAndNumFromStr.executor": "Run",
+    "Application.ShortStringCharacter.executor": "Run",
+    "Application.SlidingWindowMaxSubOfSubArray.executor": "Run",
+    "Application.SynchronizationByMethod.executor": "Run",
+    "Application.TestThread.executor": "Run",
+    "Application.ThreadMethods.executor": "Run",
+    "Application.ThreadUsingRunnableInterface.executor": "Run",
+    "Application.ThreadUsingThreadClass.executor": "Run",
+    "Application.org.example.InterThreadCommunication.MovieBookApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java_Practice_git\src\main\java\org\example" />
       <recent name="D:\Java_Practice_git\src\main\java\org\example\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.InterThreadCommunication.MovieBookApp">
-    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Thread.DaemonThread" />
+  <component name="RunManager" selected="Application.LifeCycle">
+    <configuration name="DaemonBasics_NoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Thread.DaemonBasics_NoLambda" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Thread.*" />
+          <option name="PATTERN" value="org.example.test.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieBookApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StaticSynchronization.MovieBookApp" />
+    <configuration name="FindFirstNonRepeatedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.dsaString.FindFirstNonRepeatedCharacter" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.StaticSynchronization.*" />
+          <option name="PATTERN" value="org.example.test.dsaString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizationByMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Thread.SynchronizationByMethod" />
+    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test2.Interview" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Thread.*" />
+          <option name="PATTERN" value="org.example.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadUsingThreadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Thread.ThreadUsingThreadClass" />
+    <configuration name="LifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.Thread.LifeCycle" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Thread.*" />
+          <option name="PATTERN" value="org.example.test.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.InterThreadCommunication.MovieBookApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.InterThreadCommunication.MovieBookApp" />
+    <configuration name="ReverseSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.dsaString.ReverseSentence" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.InterThreadCommunication.*" />
+          <option name="PATTERN" value="org.example.test.dsaString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.InterThreadCommunication.MovieBookApp" />
-        <item itemvalue="Application.MovieBookApp" />
-        <item itemvalue="Application.SynchronizationByMethod" />
-        <item itemvalue="Application.DaemonThread" />
-        <item itemvalue="Application.ThreadUsingThreadClass" />
+        <item itemvalue="Application.LifeCycle" />
+        <item itemvalue="Application.FindFirstNonRepeatedCharacter" />
+        <item itemvalue="Application.ReverseSentence" />
+        <item itemvalue="Application.Interview" />
+        <item itemvalue="Application.DaemonBasics_NoLambda" />
       </list>
     </recent_temporary>
   </component>
