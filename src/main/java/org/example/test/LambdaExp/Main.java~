@@ -25,13 +25,12 @@ public class Main {
 //                return o1.getMarks()-o2.getMarks();
 //            }
 //        });
-        Collections.sort(students);
         System.out.println(students);
 
         // With lambda Expression
         //Collections.sort(students, (s1,s2) -> s1.getMarks() > s2.getMarks() ? -1 : +1 );
-//        Collections.sort(students, (s1, s2) -> s2.getMarks() - s1.getMarks());
-//        System.out.println(students);
+        Collections.sort(students, (s1, s2) -> s2.getMarks() - s1.getMarks());
+        System.out.println(students);
 
 
     }

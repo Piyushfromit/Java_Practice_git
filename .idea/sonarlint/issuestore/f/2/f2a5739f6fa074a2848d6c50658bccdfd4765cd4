@@ -1,0 +1,9 @@
+
+ï	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(≈ÎÎ±J$12b058c2-dd3e-436c-97bc-cdcd83509f04
+~	java:S125"<This block of commented-out lines of code should be removed.(Îﬁ¬∞8∑ô˘∏π3J$659b9717-646e-49a7-9e74-26c1f1d08f08
+s
+java:S1135"2Complete the task associated to this TODO comment.(‡¯ˆ◊˚ˇˇˇˇJ$3b2e6334-3ccb-4de0-b67a-c9d22d313f79
+f	java:S106"+Replace this use of System.out by a logger.(ÿü¶èJ$fd7b3de3-020d-4cbc-9732-0917c67151ef
+w	java:S125 "<This block of commented-out lines of code should be removed.(û™ÜÄJ$f3f77f45-806a-4bfd-b007-b09fd85957f4
+t
+java:S1128"1Remove this unused import 'java.util.Comparator'.(ÓπÛπ8ºô˘∏π3J$44798e5c-9819-4e25-918e-19e6ecf435b0
