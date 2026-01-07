@@ -1,0 +1,38 @@
+package org.example.test.LambdaExp;
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        List<Student> students = new ArrayList<>();
+        students.add(new Student(10,"name1",780));
+        students.add(new Student(12,"name2",480));
+        students.add(new Student(14,"name3",680));
+        students.add(new Student(15,"name4",580));
+
+
+        // WithOut lambda Expression
+        Collections.sort(students, new Comparator<Student>() {
+
+            @Override
+            public int compare(Student o1, Student o2) {
+                // TODO Auto-generated method stub
+                return o1.getMarks()-o2.getMarks();
+            }
+        });
+        System.out.println(students);
+
+        // With lambda Expression
+        //Collections.sort(students, (s1,s2) -> s1.getMarks() > s2.getMarks() ? -1 : +1 );
+        Collections.sort(students, (s1, s2) -> s2.getMarks() - s1.getMarks());
+        System.out.println(students);
+
+
+    }
+
+}
