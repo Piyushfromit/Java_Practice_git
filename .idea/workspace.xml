@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d17c8ee34c4e888bd4a3f07275ae6648f2457670" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d17c8ee34c4e888bd4a3f07275ae6648f2457670" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,11 +77,15 @@
     "Application.ThreadUsingThreadClass.executor": "Run",
     "Application.org.example.InterThreadCommunication.MovieBookApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -182,7 +178,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735402720562</updated>
+      <workItem from="1776752935550" duration="635000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
