@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/ImmutableClass/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/ImmutableClass/Ranking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/InterfaceAndAbstract/TestAbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Map/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Singleton/ABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/test3/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/test3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/test3/MyMane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/test3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/test4/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test2/Int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test2/IntChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/Collection/CollectionPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Collection/CollectionPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test2/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test2/Interview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/LambdaExp/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +86,9 @@
     "com.codeium.enabled": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
 }]]></component>
