@@ -47,10 +47,8 @@ public class Main {
         List<String> names4= students.stream().filter(s -> s.getYear() > 25 ).map(t -> t.getFirstName()).toList();
         System.out.println(names4);
 
-
         Long names5 = students.stream().filter(s -> s.getYear() > 25 ).count();
         System.out.println(names5);
-
 
         Student stu = students.stream().min(Comparator.comparing(Student::getYear)).orElseThrow();
         System.out.println(stu);
@@ -76,12 +74,53 @@ public class Main {
         Map<String, List<Student>>  map2 = students.stream().collect(Collectors.groupingBy(s -> s.getAddress().getState()));
         System.out.println(map2);
 
-        Map<Long, List<String>> map3 = students.stream().collect(Collectors.groupingBy(Student::getYear,
-                        Collectors.mapping(Student::getFirstName, Collectors.toList())
-                ));
-
+        Map<Long, List<String>> map3 = students.stream().collect(Collectors.groupingBy(
+                Student::getYear,
+                Collectors.mapping(Student::getFirstName, Collectors.toList())
+        ));
         System.out.println(map3);
 
+        Map<Long, List<Student>> ss= students.stream().collect(Collectors.groupingBy(Student::getYear));
+        System.out.println(ss);
+
+        Map<String, List<Student>> sss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState()));
+        System.out.println(sss);
+
+        Map<String, Long> ssss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState(),
+                Collectors.counting()));
+        System.out.println(ssss);
+
+        Map<String, List<String>> sssss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState(),
+                Collectors.mapping(Student::getFirstName, Collectors.toList())));
+        System.out.println(sssss);
+
+        Map<String, Long> ssssss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState(),
+                Collectors.summingLong(Student::getYear)));
+        System.out.println(ssssss);
+
+        Map<String, Long> sssssss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState(),
+                Collectors.summingLong(Student::getYear)));
+        System.out.println(sssssss);
+
+        Map<String, Optional<Student>> ssssssss = students.stream().collect(Collectors.groupingBy(
+                s->s.getAddress().getState(),
+                Collectors.maxBy(Comparator.comparing(Student::getYear))));
+        System.out.println(ssssssss);
+
+
+        Map<String, Student> result = students.stream().collect(Collectors.groupingBy(
+                        s -> s.getAddress().getState(),
+                        Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(Student::getYear)),
+                                Optional::get
+                        )
+                ));
+
+        System.out.println(result);
 
     }
 }
