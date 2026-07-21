@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c77374-aa8e-4a3d-92ee-2a54b227328d" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi2/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi4/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/streamApi3/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/streamApi3/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/test/StreamApi/Main.java" afterDir="false" />
+>>>>>>> 7af57da62ba31ce9ad4b9f0d6fb5eac310a390a7
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +60,10 @@
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MovieBookApp.executor": "Run",
+<<<<<<< HEAD
+=======
+    "Application.MyClass.executor": "Run",
+>>>>>>> 7af57da62ba31ce9ad4b9f0d6fb5eac310a390a7
     "Application.MyMane.executor": "Run",
     "Application.NewClass.executor": "Run",
     "Application.PrintStar.executor": "Run",
@@ -81,12 +93,20 @@
     "Application.ThreadUsingThreadClass.executor": "Run",
     "Application.org.example.InterThreadCommunication.MovieBookApp.executor": "Run",
     "Application.org.example.test.StreamApi.Main.executor": "Run",
+<<<<<<< HEAD
+=======
+    "Application.org.example.test.StreamApi4.MyClass.executor": "Run",
+    "Application.org.example.test.streamApi3.MyClass.executor": "Run",
+>>>>>>> 7af57da62ba31ce9ad4b9f0d6fb5eac310a390a7
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.codeium.enabled": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "main",
+=======
+>>>>>>> 7af57da62ba31ce9ad4b9f0d6fb5eac310a390a7
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Java_Practice_git/src/main/java/org/example",
     "project.structure.last.edited": "Modules",
@@ -108,26 +128,13 @@
       <recent name="org.example.test.Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.test.StreamApi.Main">
-    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.test2.Interview" />
+  <component name="RunManager" selected="Application.org.example.test.streamApi3.MyClass">
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.StreamApi2.MyClass" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.test2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.test.Singleton.Main" />
-      <module name="javaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.test.Singleton.*" />
+          <option name="PATTERN" value="org.example.test.StreamApi2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.test.Map.TestMap" />
+    <configuration name="org.example.test.StreamApi4.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.StreamApi4.MyClass" />
       <module name="javaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.test.Map.*" />
+          <option name="PATTERN" value="org.example.test.StreamApi4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,13 +181,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.test.streamApi3.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test.streamApi3.MyClass" />
+      <module name="javaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.streamApi3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.test.streamApi3.MyClass" />
+        <item itemvalue="Application.org.example.test.StreamApi4.MyClass" />
+        <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.org.example.test.StreamApi.Main" />
         <item itemvalue="Application.MyMane" />
-        <item itemvalue="Application.Interview" />
-        <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
