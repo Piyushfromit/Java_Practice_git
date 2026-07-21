@@ -1,6 +1,9 @@
-package org.example.test.streamApi3;
+package org.example.test.StreamApi3;
 
-import java.lang.reflect.Array;
+
+
+
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -9,6 +12,7 @@ public class MyClass {
     public static void main(String[] args) {
 
 String sss=new String("Welcome");
+
         List<String> names = Arrays.asList("Piyush" , "Aniket", "Kavita", "Aayush");
 
         Map<String, Long> myMap =
@@ -41,16 +45,18 @@ String sss=new String("Welcome");
         list.add(new Employee("Kabita", "F", "498098080989", 45, new Address("Lakhanow", "UP")));
 
 
-       Optional<Employee> emp =  list.stream().sorted(Comparator.comparing(Employee::getAge)).findFirst();
+        Optional<Employee> emp =  list.stream().sorted(Comparator.comparing(Employee::getAge)).findFirst();
 
-       System.out.println(" Yengest Employee:" +emp.get());
+        System.out.println(" Yengest Employee:" +emp.get());
 
 
         Map<String , List<Employee>> map = list.stream().filter(s-> s.getAddress().getState() != "Bihar")
                 .collect(Collectors.groupingBy(Employee::getGender));
         System.out.println(map);
 
-             //   count of male and feemal
+
+
+        //count of male and feemal
 
     }
 }

@@ -1,4 +1,4 @@
-package org.example.test.streamApi3;
+package org.example.test.StreamApi3;
 
 public class Address {
 
