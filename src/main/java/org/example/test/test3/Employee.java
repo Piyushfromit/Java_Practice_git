@@ -4,19 +4,15 @@ package org.example.test.test3;
 
 public class Employee {
 
+    private String name;
 
-      private String name;
+    private String address;
 
-      private String address;
+    private Long salary;
 
-      private Long salary;
+    private Long age;
 
-      private Long age;
-      
-      private Dept dept;
-
-
-
+    private Dept dept;
 
     @Override
     public String toString() {
@@ -28,9 +24,6 @@ public class Employee {
                 ", dept=" + dept +
                 '}';
     }
-
-
-
 
     public String getName() {
         return name;
@@ -78,6 +71,9 @@ public class Employee {
         this.salary = salary;
         this.age = age;
         this.dept = dept;
-
     }
+
+
+
+
 }
